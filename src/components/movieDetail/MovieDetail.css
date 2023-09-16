@@ -1,0 +1,125 @@
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar {
+    padding-right: 1rem;
+}
+
+.body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.inner-text i {
+    color: white;
+    font-size: 50px;
+}
+
+ i {
+    margin-top: 100rem;
+    margin-left: 0.5rem;
+}
+
+.more-details .fa {
+    font-size: 7px;
+    
+}
+
+.inner-text {
+    position: absolute;
+    top: 12rem;
+    left: 43rem;
+}
+
+.inner-text img {
+    width: 120px;
+    margin-left: 2rem;
+}
+
+.inner-text p {
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.more-details {
+    margin-top: 0;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.overview {
+    display: grid;
+    grid-template-columns: auto 30%;
+    gap: 1rem;
+}
+
+.crew {
+    margin: 1rem 0;
+}
+
+.crew p {
+    margin: 1rem 0;
+}
+
+.awards {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 0.5px solid grey;
+    margin-right: 1.7rem;
+    border-radius: 5px;
+}   
+
+.nominations {
+    text-align: left;
+    padding: 0.2rem 1rem;
+}
+
+.rating {
+    background-color: rgb(219, 19, 52);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.2rem;
+    color: white;
+}
+
+.more-details {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.buttons  {
+    display: grid;
+    margin-bottom: 1rem;
+
+}
+
+.show-times, .more-options {
+    margin-bottom: 1rem;
+    border-radius: 7px;
+}
+
+.show-times {
+    background-color: rgb(219, 19, 52);
+    color: white;
+}
+
+.more-options {
+    color: black;
+    border: 0.5px solid rgb(219, 19, 52);
+}
+
+.buttons img {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 0.5rem;
+}
+
+.crew span {
+    color: rgb(219, 19, 52);
+    font-weight: 500;
+}

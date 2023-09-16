@@ -1,0 +1,12 @@
+.rating {
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+}
+
+.rating img {
+    font-size: 10px;
+}
+
+.imdb {
+    display: flex;
+    gap: 1rem;
+}

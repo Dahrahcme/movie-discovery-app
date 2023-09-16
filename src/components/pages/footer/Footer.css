@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.sm-icons{
+    justify-items: center;
+}
+
+.sm-icons img {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.links p {
+  display: flex;
+  margin-left: 1.5rem;
+}
